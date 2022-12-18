@@ -98,8 +98,6 @@ const buzzwords = [
     "workflow",
 ];
 
-const sussy = [];
-
 export async function getAvailableDomain() {
     console.log(new Error().stack);
     let domain = getDomain();
@@ -120,6 +118,10 @@ export function getDomain() {
             ? "design"
             : Math.random() < 0.1
             ? "xyz"
+            : Math.random() < 0.1
+            ? "gg"
+            : Math.random() < 0.1
+            ? "cc"
             : "com";
     for (let i = 0; i < Math.random() * 2 + 1; i++) {
         const word =

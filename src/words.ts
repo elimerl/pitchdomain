@@ -3624,4 +3624,4 @@ export const words = [
     "an",
     "i",
     "a",
-].filter((v) => v.length > 4);
+].filter((v) => v.length > 2);
